@@ -1,0 +1,60 @@
+
+@media only screen and (max-width: 700px){
+    .main-content{
+        flex-direction: column;
+    }
+
+    form textarea:focus{
+        width: 40%;
+    }
+
+    .contact-item form input[type="text"]:focus,
+    .contact-item form input[type="email"]:focus{
+    width: 40%;
+    }
+}
+
+@media only screen and (max-width:850px){
+    .top-bar{
+        flex-wrap: wrap;
+    }
+    .weather{
+        margin: 5px;
+        flex-wrap: wrap;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .country{
+        margin: 5px;
+        padding-left: 10%;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+    .banner{
+        flex-wrap: wrap;
+        height: 600px;
+
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .weather{
+        margin: 5px;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .country{
+        margin: 5px;
+        padding-left: 5px;
+        font-size: 16px;
+        padding-top: 5px;
+    }
+   
+    form textarea:focus{
+        width: 70%;
+    }
+    .contact-item form input[type="text"]:focus,
+    .contact-item form input[type="email"]:focus{
+    width: 60%;
+    }
+}

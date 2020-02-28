@@ -1,0 +1,180 @@
+.banner{
+    background: url("../project/img4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.weather h2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.weather{
+color: lawngreen;
+font-size: 25px;
+padding: 20px;
+margin: 5px;
+text-align: left;
+}
+
+.weather ul{
+    padding-top: 15px;
+    list-style: none;
+}
+
+.country{
+    color: lawngreen;
+    flex: 2;
+    text-align: left;
+    padding: 20px;
+    font-size: 25px;
+    margin: 5px;
+    margin-left: 20%;
+}
+
+.country ul{
+    list-style: none;
+    padding: 15px;
+}
+
+.main-content{
+    display: flex;
+    padding: 20px;
+}
+
+.main-content h2{
+    margin-top: 15px;
+
+}
+.main-item p{
+    padding: 10px;
+
+}
+
+.contact{
+    background-color: rgb(11, 54, 54);
+    color: yellow;
+}
+
+.contact-item{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px ;
+    border: 3px solid;
+    border-color: lime;
+    outline: none;
+}
+
+.contact-item form input[type="text"]:focus,
+.contact-item form input[type="email"]:focus{
+width: 25%;
+border-color: mediumvioletred;
+}
+
+form textarea:focus{
+width: 35%;
+}
+
+.btn{
+    padding: 8px;
+    border: 3px solid magenta;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.clr{
+    padding: 8px;
+    border: 3px solid magenta;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.btn:hover{
+    background-color:blue;
+    transition: 0.6s ease;
+}
+
+.clr:hover{
+    background-color: blue;
+    transition: 0.6s ease;
+}
+
+form button{
+    font-size: 20px;
+    border: 3px solid turquoise;
+    padding: 6px;
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+form button:hover{
+    background-color: brown;
+    transition: 0.6s ease;
+}
+
+.button1{
+    display: flex;
+    padding: 8px;
+    margin: 5px;
+    outline: none;
+    justify-content: space-around;
+}
+
+.footer{
+    background-color: darkslateblue;
+    color: gold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+.copyright{
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.social-media{
+    padding: 20px;
+    flex: 2;
+}
+.media-item{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.media-item ul{
+    padding: 20px;
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+}
+
+.media-item ul li a{
+    text-decoration: none;
+    padding: 8px;
+    color: cyan;
+}

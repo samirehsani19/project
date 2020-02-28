@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="top-bar.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery.js"></script>
+
+    <title>Samir Website</title>
+</head>
+
+<body>
+    <!--******** top bar ***********-->
+    <div class="top-bar">
+        <h1>Samir Website</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <form class="search">
+            <input type="text" id="userInput" list="countryList" placeholder="Enter Country Name">
+            <datalist id="countryList"></datalist>
+            <button type="submit" class="button1"> Submit</button>
+        </form>
+    </div>
+
+    <!--********  banner   ***********-->
+    <div class="banner">
+        <div class="weather">
+            <h2>Current weather</h2>
+            <ul>
+                <li id="country">Country</li>
+                <li id="psr">Possible of rain</li>
+                <li id="temp">temperature</li>
+                <li id="wind">Wind speed</li>
+                <li id="time">Time</li>
+            </ul>
+        </div>
+
+        <div class="country">
+            <h2>Country Information</h2>
+            <ul>
+                <li id="name">Name</li>
+                <li id="capital">Capital</li>
+                <li id="languages">languages</li>
+                <li id="population">Population</li>
+                <li id="region">Region</li>
+                <li id="currency">Currency</li>
+                <li id="area">Area</li>
+                <li id="callingCode">CallingnCode</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--********   main content  ***********-->
+    <div class="main-content">
+        <div class="main-item">
+            <h2>Header One</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Aperiam natus dolorum
+                at beatae. Accusantium, pariatur tempore?
+                Dignissimos ut perferendis repellendus amet
+                impedit reprehenderit, nostrum laudantium, in,
+                corporis ex blanditiis praesentium!
+            </p>
+        </div>
+        <div class="main-item">
+            <h2>Header Two</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Aperiam natus dolorum
+                at beatae. Accusantium, pariatur tempore?
+                Dignissimos ut perferendis repellendus amet
+                impedit reprehenderit, nostrum laudantium, in,
+                corporis ex blanditiis praesentium!
+            </p>
+        </div>
+        <div class="main-item">
+            <h2>Header Three</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Aperiam natus dolorum
+                at beatae. Accusantium, pariatur tempore?
+                Dignissimos ut perferendis repellendus amet
+                impedit reprehenderit, nostrum laudantium, in,
+                corporis ex blanditiis praesentium!
+            </p>
+        </div>
+    </div>
+    <!--********   contact  ***********-->
+    <div class="contact">
+        <div class="contact-item">
+            <div class="button1">
+                <button class="btn">Hide Header</button>
+                <button class="clr">Change Color</button>
+            </div>
+            <form action="#" method="POST">
+                <h2>Contact us</h2>
+                <input type="text" name="" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea textarea="message" placeholder="Enter Message" cols="30" rows="12"></textarea>
+                <button type="submit" class="jan">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!--********   footer  ***********-->
+    <div class="footer">
+        <div class="copyright">
+            <ul>
+                <li>Samir Website</li>
+                <li>&copy; 2020 Samir Website </li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <div class="media-item">
+                <h3> Follow US </h3>
+                <span>|</span>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook-square"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
